@@ -197,7 +197,7 @@ st.dataframe(
 #   if st.button("➡ Next: Advanced Preprocessing", use_container_width=True):
 #       #final_df = pd.concat([X, y], axis=1)
 #        st.session_state.preprocessed_data = st.session_state.working_data.copy()
-#        st.switch_page("pages/4_Advanced_preprocessing.py")
+#        st.switch_page("pages/4_Advanced_Preprocessing.py")
 
 #=====================================================
 # new navigation
@@ -237,6 +237,7 @@ with col2:
 
         st.write("Columns in working_data:", st.session_state.working_data.columns.tolist())
         st.write("Target:", st.session_state.target)
+
 
 
         
