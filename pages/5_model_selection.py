@@ -141,8 +141,9 @@ col1, col2 = st.columns(2)
 with col1:
     if st.button("⬅ Back to Preprocessing", use_container_width=True, key="nav_back"):
         st.session_state["reset_advanced_preprocessing"] = False
-        st.switch_page("pages/4_Advanced_preprocessing.py")
+        st.switch_page("pages/4_Advanced_Preprocessing.py")
 
 with col2:
     if st.button("➡ Proceed to Model Training", use_container_width=True, key="nav_next"):
+
         st.switch_page("pages/6_training.py")
