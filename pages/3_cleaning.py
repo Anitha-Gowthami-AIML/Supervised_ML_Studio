@@ -233,7 +233,7 @@ with col2:
         # Ensure target remains inside cleaned_data
         st.session_state.cleaned_data = df_cleaned.copy()
         st.session_state["reset_advanced_preprocessing"] = True
-        st.switch_page("pages/4_Advanced_preprocessing.py")
+        st.switch_page("pages/4_Advanced_Preprocessing.py")
 
         st.write("Columns in working_data:", st.session_state.working_data.columns.tolist())
         st.write("Target:", st.session_state.target)
@@ -241,3 +241,4 @@ with col2:
 
 
         
+
